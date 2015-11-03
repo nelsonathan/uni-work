@@ -1,0 +1,26 @@
+{ "fixtures":[
+    {
+        "Month": "November",
+        "Day": "14th",
+        "OpponentBadge": "images/fixtures/southampton.png",
+        "Opponent": "Southampton",
+        "Location": "Home",
+        "Competition": "Barclays Premier League"
+    },
+    {
+        "Month": "November",
+        "Day": "18th",
+        "OpponentBadge": "images/fixtures/bournemouth.png ",
+        "Opponent": "Bournemouth",
+        "Location": "Home",
+        "Competition": "Capital One Cup"
+    },
+    {
+        "Month": "December",
+        "Day": "3rd",
+        "OpponentBadge": "images/fixtures/rubin.png",
+        "Opponent": "Rubin Kazan ",
+        "Location": "Away",
+        "Competition": "Europa League"
+    }
+]}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Liverpool FC - COM601 Assignment 1">
+    <meta name="author" content="Nathan Nelson - B00608772">
+
+    <title>Nathan Nelson - COM601 Assignment 1</title>
+
+    <!-- CSS -->
+    <link href="styles/style.min.css" rel="stylesheet">  
+    
+    <!-- WEB FONT -->
+    <script src="//use.edgefonts.net/josefin-sans.js"></script> 
+    
+</head>
+
+<body onload="startTime()" id="home">
+	
+	<header>
+		<div class="row">
+			
+			<div class="logo">
+				<img src="images/lfc-logo.png" />	
+			</div>
+				
+			<nav>
+				<ul class="navbar">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#honours">Honours</a></li>
+					<li><a href="#fixtures">Fixtures</a></li>
+				</ul>
+			</nav>
+									
+		</div>
+	</header>
+	
+	<!-- DATE / TIME -->
+	
+	<section id="dateTime">
+		<div class="row">
+			<span id="time"></span>
+		</div>
+	</section>
+		
+	<!-- TOP SECTION -->
+	
+	<section id="top">
+		
+		<div class="row">
+			<div class="about">
+				<h1>Liverpool FC</h1>
+				<h2>Barclay's Premier League</h2>
+			</div>
+		</div>
+		
+	</section>
+	
+	<!-- TEAM SECTION -->
+	
+	<section id="team">
+		
+		<div class="row">
+			
+			<h1>The Team</h1>			
+			
+			<div id="profiles"></div> <!-- Where profiles will be placed on select -->			
+			
+		</div>
+		
+	</section>
+
+	
+	<!-- HONOURS SECTION -->
+	
+	<section id="honours">
+		
+		<div class="row">
+			
+			<h1>Honours</h1>
+			<p>Click on the trophy to view the number of times it has been won</p>
+			
+			<span id="league">
+				<img src="images/honours/league.png" />
+				<h2>English League</h2>
+				<p>18</p>
+			</span>
+			
+			<span id="cup">
+				<img src="images/honours/leaguecup.png" />
+				<h2>League Cup</h2>
+				<p>8</p>
+			</span>
+			
+			<span id="euro">
+				<img src="images/honours/cl.png" />
+				<h2>European Cup</h2>
+				<p>5</p>
+			</span>
+
+			<span id="fa">
+				<img src="images/honours/fa.png" />
+				<h2>FA Cup </h2>
+				<p>7</p>
+			</span>
+			
+			<span id="uefa">
+				<img src="images/honours/uefa.png" />
+				<h2>UEFA Cup</h2>
+				<p>3</p>
+			</span>
+
+
+			
+		</div>
+		
+	</section>
+	
+	<!-- FIXTURES SECTION -->
+	
+	<section id="fixtures">
+		
+		<div class="row">
+			
+			<h1>Upcoming Fixtures</h1>
+			
+			<form id="upcoming">
+				    <select id="placeholder">
+					<option value='-1' selected>Choose a Competition</option>
+				    </select>
+				    <input type="submit" id="findFixtures" value="Find Fixtures" />
+			</form>
+		
+			<div>
+				<div id="result"></div>
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<!-- FOOTER -->
+		
+	<footer>
+		<div class="row">
+			<small>&copy; Nathan Nelson</small>
+		</div>
+	</footer>
+	
+    <!-- jQuery -->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="scripts/script.min.js" type="text/javascript"></script>
+    
+    <!-- jQuery UI -->
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+</body>
+
+</html>
